@@ -4,7 +4,7 @@ from app.routes import expenses, users
 from app import database
 from app import models
 
-app = FastAPI()
+app = FastAPI(docs_url="/", redoc_url=None)
 
 models.Base.metadata.create_all(bind=database.engine)
 
