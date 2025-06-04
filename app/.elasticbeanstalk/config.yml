@@ -1,0 +1,8 @@
+branch-defaults:
+  master:
+    environment: Expense-tracker-env
+global:
+  application_name: expense-tracker
+  default_region: us-east-1
+  platform: Docker
+  profile: null
