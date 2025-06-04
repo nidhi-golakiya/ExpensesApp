@@ -1,3 +1,17 @@
 venv\Scripts\activate.bat
 
 uvicorn app.main:app --reload
+
+
+Resume Bullet Points for Expense Tracker Project:
+Developed a FastAPI-based expense tracker with user authentication and CRUD operations using PostgreSQL as the backend database.
+
+Containerized the application using Docker and managed environment configurations securely with environment variables.
+
+Deployed the application to AWS Elastic Beanstalk using a custom Dockerfile, and connected it to an Amazon RDS PostgreSQL instance.
+
+Set up continuous deployment via GitHub Actions, enabling automatic redeployment on push to the main branch.
+
+Monitored deployment logs, configured health checks, and optimized EC2 instance types to stay within AWS Free Tier.
+
+Implemented secure access to secrets using GitHub Actions secrets and AWS IAM best practices.
